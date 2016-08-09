@@ -1,6 +1,6 @@
 # Reshape Parser
 
-[![npm](https://img.shields.io/npm/v/reshape.svg?style=flat-square)](https://npmjs.com/package/reshape)
+[![npm](https://img.shields.io/npm/v/reshape-parser.svg?style=flat-square)](https://npmjs.com/package/reshape-parser)
 [![tests](https://img.shields.io/travis/reshape/parser.svg?style=flat-square)](https://travis-ci.org/reshape/parser?branch=master)
 [![dependencies](https://img.shields.io/david/reshape/parser.svg?style=flat-square)](https://david-dm.org/reshape/parser)
 [![coverage](https://img.shields.io/coveralls/reshape/parser.svg?style=flat-square)](https://coveralls.io/r/reshape/parser?branch=master)
