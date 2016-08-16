@@ -13,7 +13,7 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "coveralls": "^2.11.12",
-    "nyc": "^7.1.0",
+    "nyc": "^8.1.0",
     "standard": "7.x"
   },
   "engines": {
@@ -22,8 +22,7 @@
   "homepage": "https://github.com/reshape/parser",
   "keywords": [
     "html",
-    "parser",
-    "reshape-plugin"
+    "parser"
   ],
   "license": "MIT",
   "main": "lib",
