@@ -20,6 +20,11 @@
     "node": ">= 6.0.0"
   },
   "homepage": "https://github.com/reshape/parser",
+  "keywords": [
+    "html",
+    "parser",
+    "reshape-plugin"
+  ],
   "license": "MIT",
   "main": "lib",
   "repository": "reshape/parser",
