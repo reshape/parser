@@ -98,6 +98,12 @@ test('filename option', (t) => {
   t.truthy(out[0].location.filename === 'index.html')
 })
 
+test('svg parse', (t) => {
+  const str = '<svg width="178px" height="297px" viewBox="0 0 178 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Slice 1</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="45" cy="252" r="44"></circle><circle id="Oval-Copy" stroke="#979797" fill="#D8D8D8" cx="133" cy="252" r="44"></circle><ellipse id="Oval-2" stroke="#979797" fill="#D8D8D8" cx="89.5" cy="113" rx="29.5" ry="112"></ellipse></g></svg>'
+  const out = parser(str, { filename: 'index.html' })
+  t.truthy(out[0].name === 'svg')
+})
+
 function inspect (tree) { // eslint-disable-line
   console.log(util.inspect(tree, { depth: null, showHidden: true }))
 }
