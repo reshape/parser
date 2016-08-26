@@ -5,7 +5,7 @@
 [![dependencies](https://img.shields.io/david/reshape/parser.svg?style=flat-square)](https://david-dm.org/reshape/parser)
 [![coverage](https://img.shields.io/coveralls/reshape/parser.svg?style=flat-square)](https://coveralls.io/r/reshape/parser?branch=master)
 
-An html parser for reshape based on [parse5](https://github.com/inikulin/parse5), featuring source location info and more robust node types.
+An HTML parser for [reshape](https://github.com/reshape/reshape) based on [parse5](https://github.com/inikulin/parse5), featuring source location info and more robust node types.
 
 > **Note:** This project is in early development, and versioning is a little different. [Read this](http://markup.im/#q4_cRZ1Q) for more details.
 
@@ -30,7 +30,7 @@ No options are required, all are optional.
 
 | Name | Description | Default |
 | ---- | ----------- | ------- |
-| **filename** | Attach a filename to the `location` info in each node | |
+| **filename** | Attach a filename to the `location` info in each node. | |
 
 ### The Reshape AST
 
