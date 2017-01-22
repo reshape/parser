@@ -1,5 +1,7 @@
 # Reshape Parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/reshape/parser.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/reshape-parser.svg?style=flat-square)](https://npmjs.com/package/reshape-parser)
 [![tests](https://img.shields.io/travis/reshape/parser.svg?style=flat-square)](https://travis-ci.org/reshape/parser?branch=master)
 [![dependencies](https://img.shields.io/david/reshape/parser.svg?style=flat-square)](https://david-dm.org/reshape/parser)
