@@ -19,7 +19,7 @@ test('head/body', t => {
   const str =
     '<!doctype html><html><head><link rel="stylesheet" href="/style.css"></head><body><p>hi!</p></body></html>'
   const out = parser(str)
-  t.truthy(out[0].type === 'text')
+  t.truthy(out[0].type === 'doctype')
   t.truthy(out[0].content.match(/!DOCTYPE/))
   t.truthy(out[1].name === 'html')
   t.truthy(out[1].content[0].name === 'head')
