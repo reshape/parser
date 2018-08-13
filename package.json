@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/reshape/parser/issues",
   "dependencies": {
-    "parse5": "^4.0.0"
+    "parse5": "^5.1.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
